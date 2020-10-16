@@ -5,7 +5,7 @@ CREATE DATABASE s298430;
 CREATE SCHEMA Firma;
 
 -- 3. Stwórz rolę o nazwie ksiegowosc i nadaj jej uprawnienia tylko do odczytu.
-
+CREATE ROLE Ksiegowosc;
 
 -- 4. Dodaj cztery tabele:
 -- 	    pracownicy (id_pracownika, imie, nazwisko, adres, telefon)
